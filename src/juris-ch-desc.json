@@ -596,86 +596,6 @@
         }
       }
     },
-    "militarappellationsgericht 1": {
-      "name": "Militärappellationsgericht 1",
-      "variants": {
-        "fr": {
-          "name": "Tribunal militaire d'appel 1"
-        },
-        "it": {
-          "name": "Tribunale militare d'appello 1"
-        }
-      }
-    },
-    "militarappellationsgericht 2": {
-      "name": "Militärappellationsgericht 2",
-      "variants": {
-        "fr": {
-          "name": "Tribunal militaire d'appel 2"
-        },
-        "it": {
-          "name": "Tribunale militare d'appello 2"
-        }
-      }
-    },
-    "militarappellationsgericht 3": {
-      "name": "Militärappellationsgericht 3",
-      "variants": {
-        "fr": {
-          "name": "Tribunal militaire d'appel 3"
-        },
-        "it": {
-          "name": "Tribunale militare d'appello 3"
-        }
-      }
-    },
-    "militargericht 1": {
-      "name": "Militärgericht 1",
-      "variants": {
-        "fr": {
-          "name": "Tribunal militaire 1"
-        },
-        "it": {
-          "name": "Tribunale militare di prima istanza 1"
-        }
-      }
-    },
-    "militargericht 2": {
-      "name": "Militärgericht 2",
-      "variants": {
-        "fr": {
-          "name": "Tribunal militaire 2"
-        },
-        "it": {
-          "name": "Tribunale militare di prima istanza 2"
-        }
-      }
-    },
-    "militargericht 3": {
-      "name": "Militärgericht 3",
-      "variants": {
-        "fr": {
-          "name": "Tribunal militaire 3"
-        },
-        "it": {
-          "name": "Tribunale militare di prima istanza 3"
-        }
-      }
-    },
-    "militarkassationsgericht": {
-      "name": "Militärkassationsgericht",
-      "ABBREV": "MKG",
-      "variants": {
-        "fr": {
-          "abbrev": "TMC",
-          "name": "Tribunal militaire de cassation"
-        },
-        "it": {
-          "abbrev": "TMC",
-          "name": "Tribunale militare di cassazione"
-        }
-      }
-    },
     "notariatskommission": {
       "name": "Notariatskommission",
       "variants": {
@@ -1325,6 +1245,57 @@
           "name": "Tribunale federale delle assicurazioni"
         }
       }
+    },
+    "mag": {
+      "name": "Militärappellationsgericht %s",
+      "ABBREV": "MAG%s",
+      "variants": {
+        "fr": {
+          "name": "Tribunal militaire d'appel %s",
+          "ABBREV": "TMA%s"
+        },
+        "it": {
+          "name": "Tribunale militare d'appello %s",
+          "ABBREV": "TMA%s"
+        },
+        "en": {
+          "name": "Military Court of Appeal %s"
+        }
+      }
+    },
+    "mg": {
+      "name": "Militärgericht %s",
+      "ABBREV": "MG%s",
+      "variants": {
+        "fr": {
+          "name": "Tribunal militaire %s",
+          "ABBREV": "TM%s"
+        },
+        "it": {
+          "name": "Tribunale militare di prima istanza %s",
+          "ABBREV": "TM%s"
+        },
+        "en": {
+          "name": "Military Tribunal %s"
+        }
+      }
+    },
+    "mkg": {
+      "name": "Militärkassationsgericht",
+      "ABBREV": "MKG",
+      "variants": {
+        "fr": {
+          "name": "Tribunal militaire de cassation",
+          "ABBREV": "TMC"
+        },
+        "it": {
+          "name": "Tribunale militare di cassazione",
+          "ABBREV": "TMC"
+        },
+        "en": {
+          "name": "Military Supreme Court"
+        }
+      }
     }
   },
   "jurisdictions": {
@@ -1336,13 +1307,7 @@
         "bvger": {},
         "bpatger": {},
         "evg": {},
-        "militarappellationsgericht 1": {},
-        "militarappellationsgericht 2": {},
-        "militarappellationsgericht 3": {},
-        "militargericht 1": {},
-        "militargericht 2": {},
-        "militargericht 3": {},
-        "militarkassationsgericht": {}
+        "mkg": {}
       }
     },
     "ch:ag": {
@@ -2209,6 +2174,63 @@
       "name": "Zürich",
       "courts": {
         "bezger": {}
+      }
+    },
+    "ch:mj1": {
+      "name": "Militärjustizregion 1",
+      "ABBREV": "1",
+      "variants": {
+        "fr": {
+          "name": "Justice Militaire Région 1"
+        },
+        "it": {
+          "name": "Giustizia Militare Regione 1"
+        },
+        "en": {
+          "name": "Military Justice Region 1"
+        }
+      },
+      "courts": {
+        "mg": {},
+        "mag": {}
+      }
+    },
+    "ch:mj2": {
+      "name": "Militärjustizregion 2",
+      "ABBREV": "2",
+      "variants": {
+        "fr": {
+          "name": "Justice Militaire Région 2"
+        },
+        "it": {
+          "name": "Giustizia Militare Regione 2"
+        },
+        "en": {
+          "name": "Military Justice Region 2"
+        }
+      },
+      "courts": {
+        "mg": {},
+        "mag": {}
+      }
+    },
+    "ch:mj3": {
+      "name": "Militärjustizregion 3",
+      "ABBREV": "3",
+      "variants": {
+        "fr": {
+          "name": "Justice Militaire Région 3"
+        },
+        "it": {
+          "name": "Giustizia Militare Regione 3"
+        },
+        "en": {
+          "name": "Military Justice Region 3"
+        }
+      },
+      "courts": {
+        "mg": {},
+        "mag": {}
       }
     }
   }
